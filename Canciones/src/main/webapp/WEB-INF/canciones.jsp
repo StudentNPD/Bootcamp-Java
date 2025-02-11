@@ -22,7 +22,7 @@
                 <h1 class="h2">
                     <i class="fas fa-music me-2"></i>Biblioteca Musical
                 </h1>
-                <a href="/canciones/nueva" class="btn btn-primary">
+                <a href="/canciones/formulario/agregar" class="btn btn-primary">
                     <i class="fas fa-plus me-2"></i>Nueva Canción
                 </a>
             </div>

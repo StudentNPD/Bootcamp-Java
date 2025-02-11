@@ -23,4 +23,10 @@ public class ServicioCanciones {
 		// orelse null es por si no encuentra el id
 		return repositorio.findById(id).orElse(null);
 	}
+	
+	public Cancion agregarCancion(Cancion cancion) {
+		return repositorio.save(cancion);
+		
+	}
+	
 }
