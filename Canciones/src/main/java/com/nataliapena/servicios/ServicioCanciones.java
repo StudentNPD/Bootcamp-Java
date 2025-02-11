@@ -1,0 +1,26 @@
+package com.nataliapena.servicios;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.nataliapena.modelos.Cancion;
+import com.nataliapena.repositorios.RepositorioCanciones;
+
+@Service
+public class ServicioCanciones {
+	@Autowired
+	// RepositorioCanciones.java importado
+	RepositorioCanciones repositorio;
+
+	// Metodo public retorna una lista de canciones
+	public List<Cancion> obtenerTodasLasCanciones() {
+		return repositorio.findAll();
+	}
+
+	public Cancion obtenerCancionPorId(Long id) {
+		// orelse null es por si no encuentra el id
+		return repositorio.findById(id).orElse(null);
+	}
+}

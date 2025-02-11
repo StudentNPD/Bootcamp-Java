@@ -1,0 +1,47 @@
+.song-card {
+	transition: transform 0.2s;
+}
+
+.song-card:hover {
+	transform: translateY(-5px);
+}
+
+.btn-detail {
+	transition: all 0.3s;
+}
+
+.btn-detail:hover {
+	transform: scale(1.05);
+}
+
+.detail-card {
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.detail-header {
+	background: linear-gradient(45deg, #1a237e, #283593);
+	padding: 2rem;
+	color: white;
+}
+
+.detail-item {
+	padding: 1rem;
+	border-bottom: 1px solid #eee;
+}
+
+.detail-label {
+	font-weight: bold;
+	color: #666;
+}
+
+.back-button {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+}
+
+.badge-custom {
+	font-size: 1em;
+	padding: 0.5em 1em;
+}
