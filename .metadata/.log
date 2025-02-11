@@ -1,0 +1,1500 @@
+!SESSION 2025-01-24 12:12:07.362 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-24 12:12:45.828
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-24 12:12:56.379
+!MESSAGE Logback config file: C:\Users\study\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-01-24 12:12:56.984
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-01-24 12:12:56.984
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-01-24 12:12:57.460
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-01-24 12:12:57.460
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-01-24 12:13:03.429
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-24 12:13:05.228
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-24 12:19:19.171
+!MESSAGE Classpath changed for project: Primerproyecto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-24 15:48:39.218
+!MESSAGE Classpath changed for project: inver
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-24 15:48:50.122
+!MESSAGE Classpath changed for project: inver
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-24 15:49:14.178
+!MESSAGE Classpath changed for project: inventarioTienda
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-24 15:50:24.771
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\study\OneDrive\Documentos\Spring\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/study/Documents/workspace-spring-tool-suite-4-4.27.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1737744624769
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\study\OneDrive\Documentos\Spring\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-24 15:50:24.771
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-24 15:50:24.779
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 4404
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.150
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.core.common.platform,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.151
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.inlinesearch,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.151
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.core.common.rss,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.152
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.json.simple,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.204
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.meexplorer,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.281
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.meexplorer.jdt,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.281
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.patches,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.296
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.startup,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.336
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.startup.workspace,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.337
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.base,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.349
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.base.win,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.392
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.core,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.393
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.css,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.394
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.core.feature,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.415
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.elevation.win32,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.446
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.epl,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.463
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.scrollbar,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.464
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.feature,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.483
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.scrollbar.win,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.496
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.ui,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.511
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.ui.common.platform,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.521
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.webclipse.evergreen,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.528
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.webicons,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.573
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipsecolortheme.api,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-01-24 16:01:06.582
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.nebula.widgets.gallery,1.0.0.201706221838 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+!SESSION 2025-01-24 16:01:20.499 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/C:/Users/study/Documents/workspace-spring-tool-suite-4-4.27.0.RELEASE/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-24 16:01:24.212
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-01-24 16:02:04.555
+!MESSAGE Logback config file: C:\Users\study\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-01-24 16:02:05.164
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-01-24 16:02:05.164
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-01-24 16:02:05.456
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-01-24 16:02:05.456
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-01-24 16:02:05.484
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-01-24 16:02:05.484
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2025-01-24 16:02:05.993
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2025-01-24 16:02:06.009
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-24 16:02:09.586
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\study\OneDrive\Documentos\Spring\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/study/Documents/workspace-spring-tool-suite-4-4.27.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1737745329585
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\study\OneDrive\Documentos\Spring\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-01-24 16:02:09.588
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-01-24 16:02:09.597
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 22188
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-01-24 16:02:11.106
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-01-24 16:02:13.434
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.help.base 2 0 2025-01-24 16:34:27.513
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.server.ui.doc.user_1.1.600.v201901310132 [518]'. The index should be rebuilt with Lucene 9.12.0
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-01-24 17:35:11.556
+!MESSAGE No search provider was registered. Tasks search is not available.
+!SESSION 2025-02-04 12:10:57.457 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CL
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-04 12:11:36.677
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-02-04 12:13:10.361
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-04 12:13:11.590
+!MESSAGE Logback config file: C:\Users\study\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-02-04 12:13:12.162
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-04 12:13:12.162
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-02-04 12:13:12.516
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-04 12:13:12.516
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-02-04 12:13:14.129
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-04 12:13:17.965
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\study\Downloads\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/study/Documents/workspace-spring-tool-suite-4-4.27.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1738681997964
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\study\Downloads\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-04 12:13:17.967
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-04 12:13:17.993
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 13748
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-04 12:13:19.267
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2025-02-04 12:13:19.324
+!MESSAGE Removing PartDescriptorImpl with the "com.genuitec.eclipse.codetogether.ui.main" id and the "CodeTogether" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2025-02-04 12:13:19.326
+!MESSAGE Removing PartDescriptorImpl with the "com.genuitec.eclipse.codetogether.ui.client.view.TypeHierarchy" id and the "Type Hierarchy" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2025-02-04 12:13:19.327
+!MESSAGE Removing PartDescriptorImpl with the "com.genuitec.eclipse.codetogether.ui.client.view.CallHierarchy" id and the "Call Hierarchy" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2025-02-04 12:13:19.328
+!MESSAGE Removing PartDescriptorImpl with the "com.genuitec.codetogether.ui.client.tests.ResultView" id and the "Tests" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2025-02-04 12:18:10.159
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalStateException: Missing system library
+	at org.eclipse.jdt.core.dom.ASTParser.checkForSystemLibrary(ASTParser.java:311)
+	at org.eclipse.jdt.core.dom.ASTParser.getClasspath(ASTParser.java:272)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateASTCached(ASTParser.java:1299)
+	at org.eclipse.jdt.core.dom.ASTParser.lambda$1(ASTParser.java:1178)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1178)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:918)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:189)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:167)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.lambda$0(SelectionListenerWithASTManager.java:149)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
+	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5683)
+	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: Java Model Exception: Error in Java Model (code 969): HolaMundo does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:234)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:2040)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2775)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2769)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2787)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2779)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1681)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1582)
+	at org.eclipse.jdt.core.dom.ASTParser.checkForSystemLibrary(ASTParser.java:304)
+	... 19 more
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2025-02-04 12:18:10.160
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalStateException: Missing system library
+	at org.eclipse.jdt.core.dom.ASTParser.checkForSystemLibrary(ASTParser.java:311)
+	at org.eclipse.jdt.core.dom.ASTParser.getClasspath(ASTParser.java:272)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateASTCached(ASTParser.java:1299)
+	at org.eclipse.jdt.core.dom.ASTParser.lambda$1(ASTParser.java:1178)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1178)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:918)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:189)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:167)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.lambda$0(SelectionListenerWithASTManager.java:149)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
+	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5683)
+	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: Java Model Exception: Error in Java Model (code 969): HolaMundo does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:234)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:2040)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2775)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2769)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2787)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2779)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1681)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1582)
+	at org.eclipse.jdt.core.dom.ASTParser.checkForSystemLibrary(ASTParser.java:304)
+	... 19 more
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2025-02-04 12:18:17.079
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalStateException: Missing system library
+	at org.eclipse.jdt.core.dom.ASTParser.checkForSystemLibrary(ASTParser.java:311)
+	at org.eclipse.jdt.core.dom.ASTParser.getClasspath(ASTParser.java:272)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateASTCached(ASTParser.java:1299)
+	at org.eclipse.jdt.core.dom.ASTParser.lambda$1(ASTParser.java:1178)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1178)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:918)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:167)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.lambda$0(SelectionListenerWithASTManager.java:149)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
+	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5683)
+	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: Java Model Exception: Error in Java Model (code 969): HolaMundo does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:234)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:2040)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2775)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2769)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2787)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2779)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1681)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1582)
+	at org.eclipse.jdt.core.dom.ASTParser.checkForSystemLibrary(ASTParser.java:304)
+	... 18 more
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2025-02-04 12:18:17.079
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalStateException: Missing system library
+	at org.eclipse.jdt.core.dom.ASTParser.checkForSystemLibrary(ASTParser.java:311)
+	at org.eclipse.jdt.core.dom.ASTParser.getClasspath(ASTParser.java:272)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateASTCached(ASTParser.java:1299)
+	at org.eclipse.jdt.core.dom.ASTParser.lambda$1(ASTParser.java:1178)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1178)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:918)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:167)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.lambda$0(SelectionListenerWithASTManager.java:149)
+	at org.eclipse.jdt.internal.core.JavaModelManager.cacheZipFiles(JavaModelManager.java:5694)
+	at org.eclipse.jdt.internal.core.JavaModelManager.callReadOnly(JavaModelManager.java:5683)
+	at org.eclipse.jdt.core.JavaCore.callReadOnly(JavaCore.java:6150)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: Java Model Exception: Error in Java Model (code 969): HolaMundo does not exist
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:556)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:234)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:569)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:292)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:278)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:2040)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2775)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2769)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2787)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2779)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1681)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1582)
+	at org.eclipse.jdt.core.dom.ASTParser.checkForSystemLibrary(ASTParser.java:304)
+	... 18 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-04 12:18:48.424
+!MESSAGE Classpath changed for project: HolaMundo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-04 12:18:48.426
+!MESSAGE Boot project ADDED: HolaMundo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-04 12:18:48.428
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-04 12:18:48.429
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2025-02-04 12:18:48.819
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2025-02-04 12:18:48.820
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.preview.adapter.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2025-02-04 12:18:48.820
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.tomcat.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2025-02-04 12:18:48.820
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.http.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2025-02-04 12:18:48.821
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.preview.adapter.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-04 12:18:49.999
+!MESSAGE Classpath changed for project: HolaMundo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-04 12:18:51.615
+!MESSAGE Classpath changed for project: HolaMundo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-04 12:18:51.866
+!MESSAGE Classpath changed for project: HolaMundo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-04 12:19:53.157
+!MESSAGE Classpath changed for project: HolaMundo
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-02-04 12:22:46.749
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 00:46:42.254
+!MESSAGE Classpath changed for project: PeliculasYDirectores
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 00:46:42.255
+!MESSAGE Boot project ADDED: PeliculasYDirectores
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 00:46:43.748
+!MESSAGE Classpath changed for project: PeliculasYDirectores
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-02-06 00:57:36.464
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-02-06 01:08:23.948
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:04:15.458
+!MESSAGE Classpath changed for project: ExploradorDeRecetas
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-02-06 02:04:15.461
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:98)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:130)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:04:16.677
+!MESSAGE Classpath changed for project: ExploradorDeRecetas
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:04:16.678
+!MESSAGE Boot project ADDED: ExploradorDeRecetas
+!SESSION 2025-02-06 02:12:41.503 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CL
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/C:/Users/study/Documents/workspace-spring-tool-suite-4-4.27.0.RELEASE/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-06 02:12:48.490
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-06 02:12:52.319
+!MESSAGE Logback config file: C:\Users\study\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-02-06 02:12:52.911
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-06 02:12:52.911
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-02-06 02:12:53.422
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-06 02:12:53.422
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-02-06 02:12:56.044
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-06 02:13:00.214
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\study\Downloads\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/study/Documents/workspace-spring-tool-suite-4-4.27.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1738818780213
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\study\Downloads\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:13:00.215
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-06 02:13:00.223
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11736
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-06 02:13:01.967
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:13:02.080
+!MESSAGE Boot project ADDED: ExploradorDeRecetas
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:13:02.080
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:13:02.083
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:13:02.165
+!MESSAGE Boot project ADDED: HolaMundo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:13:02.166
+!MESSAGE Boot project ADDED: PeliculasYDirectores
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 02:15:00.688
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 02:15:00.689
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 02:15:00.690
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 02:15:00.691
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 02:15:00.696
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 02:15:00.699
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:16:37.685
+!MESSAGE Classpath changed for project: ExploradorDeRecetas
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:16:37.746
+!MESSAGE Classpath changed for project: ExploradorDeRecetas
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:16:40.037
+!MESSAGE Classpath changed for project: ExploradorDeRecetas
+!SESSION 2025-02-06 02:23:18.127 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CL
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-06 02:23:20.160
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-06 02:23:26.405
+!MESSAGE Logback config file: C:\Users\study\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-02-06 02:23:27.032
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-06 02:23:27.032
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-02-06 02:23:27.435
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-06 02:23:27.435
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-02-06 02:23:29.106
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-06 02:23:32.660
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\study\Downloads\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/study/Documents/workspace-spring-tool-suite-4-4.27.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1738819412660
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\study\Downloads\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:23:32.661
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-06 02:23:32.669
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 24052
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 02:23:32.689
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 02:23:32.691
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 02:23:32.693
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 02:23:32.694
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 02:23:32.702
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 02:23:32.705
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-06 02:23:34.424
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:23:34.567
+!MESSAGE Boot project ADDED: ExploradorDeRecetas
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:23:34.569
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:23:34.572
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:23:34.578
+!MESSAGE Boot project ADDED: HolaMundo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 02:23:34.584
+!MESSAGE Boot project ADDED: PeliculasYDirectores
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-02-06 11:57:26.811
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 12:17:35.550
+!MESSAGE Classpath changed for project: ExploradorDeRecetas
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 12:17:35.587
+!MESSAGE Classpath changed for project: ExploradorDeRecetas
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 12:17:38.250
+!MESSAGE Classpath changed for project: ExploradorDeRecetas
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 12:53:59.572
+!MESSAGE Classpath changed for project: LibrosYAutores
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 12:53:59.573
+!MESSAGE Boot project ADDED: LibrosYAutores
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 12:53:59.603
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 12:53:59.604
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 12:53:59.605
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 12:53:59.606
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 12:53:59.613
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 12:53:59.617
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 12:54:00.660
+!MESSAGE Classpath changed for project: LibrosYAutores
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 12:57:53.290
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 12:57:53.290
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 12:57:53.291
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 12:57:53.291
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 12:57:53.295
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 12:57:53.297
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-02-06 12:58:35.613
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 13:07:04.952
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 13:07:04.952
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 13:07:04.953
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 13:07:04.953
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 13:07:04.957
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 13:07:04.961
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 13:09:04.588
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 13:09:04.588
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 13:09:04.589
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 13:09:04.589
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 13:09:04.593
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-02-06 13:09:04.595
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 13:09:27.151
+!MESSAGE Classpath changed for project: LibrosYAutores
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-06 13:09:43.328
+!MESSAGE Classpath changed for project: LibrosYAutores
+!SESSION 2025-02-11 00:32:28.083 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CL
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-11 00:32:33.927
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-11 00:32:43.811
+!MESSAGE Logback config file: C:\Users\study\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-02-11 00:32:44.764
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-11 00:32:44.764
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-02-11 00:32:45.341
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-11 00:32:45.341
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-02-11 00:32:47.750
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-11 00:32:56.772
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 00:32:56.869
+!MESSAGE Boot project ADDED: ExploradorDeRecetas
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 00:32:56.870
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 00:32:56.911
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 00:32:56.912
+!MESSAGE Boot project ADDED: HolaMundo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 00:32:56.913
+!MESSAGE Boot project ADDED: LibrosYAutores
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 00:32:56.914
+!MESSAGE Boot project ADDED: PeliculasYDirectores
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-11 00:32:56.947
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\study\Downloads\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/study/Documents/workspace-spring-tool-suite-4-4.27.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1739244776946
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\study\Downloads\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 00:32:56.948
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-11 00:32:56.966
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 13792
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.205
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.core.common.platform,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.206
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.json.simple,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.207
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.core.common.rss,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.208
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.inlinesearch,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.337
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.meexplorer.jdt,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.338
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.patches,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.339
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.meexplorer,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.442
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.base,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.442
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.startup,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.443
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.startup.workspace,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.443
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.base.win,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.536
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.css,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.537
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.core,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.538
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.core.feature,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.596
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.elevation.win32,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.621
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.epl,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.632
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.feature,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.649
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.scrollbar,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.670
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.scrollbar.win,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.697
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.ui,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.746
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.webclipse.evergreen,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.747
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.webicons,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.747
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.ui.common.platform,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.797
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipsecolortheme.api,2024.4.0.202412101111 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2025-02-11 00:56:51.884
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.nebula.widgets.gallery,1.0.0.201706221838 from repository https://edge.codetogether.com/downloads/products/devstyle/updates/ds20241210.
+!SESSION 2025-02-11 00:57:11.522 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CL
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data file:/C:/Users/study/Documents/workspace-spring-tool-suite-4-4.27.0.RELEASE/
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-11 00:57:18.674
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-11 00:57:53.551
+!MESSAGE Logback config file: C:\Users\study\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-02-11 00:57:54.745
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-11 00:57:54.746
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-02-11 00:57:55.241
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-11 00:57:55.241
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-11 00:58:09.213
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 00:58:09.322
+!MESSAGE Boot project ADDED: ExploradorDeRecetas
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 00:58:09.324
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 00:58:09.437
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 00:58:09.439
+!MESSAGE Boot project ADDED: HolaMundo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 00:58:09.440
+!MESSAGE Boot project ADDED: LibrosYAutores
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 00:58:09.442
+!MESSAGE Boot project ADDED: PeliculasYDirectores
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-11 00:58:09.510
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\study\Downloads\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/study/Documents/workspace-spring-tool-suite-4-4.27.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1739246289508
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\study\Downloads\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 00:58:09.512
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-11 00:58:09.523
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 29212
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-02-11 00:58:14.255
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 01:34:09.677
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 01:34:09.731
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 01:34:28.930
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 01:37:24.681
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 01:37:31.246
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 01:38:46.278
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 01:38:51.056
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 01:40:29.795
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 01:40:33.321
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+!SESSION 2025-02-11 14:42:25.307 -----------------------------------------------
+eclipse.buildId=4.34.0.202411281622
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_CL
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-11 14:42:32.525
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-02-11 14:42:53.946
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-02-11 14:42:55.937
+!MESSAGE Logback config file: C:\Users\study\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-02-11 14:42:57.175
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-11 14:42:57.175
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-02-11 14:42:57.813
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-02-11 14:42:57.813
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2025-02-11 14:43:05.257
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-02-11 14:43:13.986
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\study'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 14:43:14.156
+!MESSAGE Boot project ADDED: ExploradorDeRecetas
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 14:43:14.158
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 14:43:14.268
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 14:43:14.271
+!MESSAGE Boot project ADDED: HolaMundo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 14:43:14.272
+!MESSAGE Boot project ADDED: LibrosYAutores
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 14:43:14.274
+!MESSAGE Boot project ADDED: PeliculasYDirectores
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-11 14:43:14.350
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\study\Downloads\sts-4.27.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.5.v20241023-1957\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/study/Documents/workspace-spring-tool-suite-4-4.27.0.RELEASE/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1739295794348
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\study\Downloads\sts-4.27.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.59.0.202411281450\servers\spring-boot-language-server\spring-boot-language-server-1.59.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-02-11 14:43:14.352
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-02-11 14:43:14.370
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 21636
+
+!ENTRY com.codetogether.hq.eclipse 1 0 2025-02-11 14:43:17.734
+!MESSAGE Authorization Server started successfuly
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 14:48:14.342
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 14:49:13.447
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 14:50:57.455
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 14:51:10.142
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 14:51:19.604
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 14:52:00.529
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 14:58:12.657
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 15:00:18.652
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 15:00:37.574
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 15:00:43.821
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 15:02:28.005
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 15:03:15.802
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 15:03:21.659
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 15:06:08.211
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2025-02-11 15:06:57.779
+!MESSAGE Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+!STACK 0
+java.lang.NoSuchFieldError: Class com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode does not have member field 'com.google.javascript.jscomp.parsing.parser.Parser$Config$Mode ES6'
+	at org.eclipse.wst.jsdt.internal.compiler.closure.ClosureCompiler.parse(ClosureCompiler.java:112)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:911)
+	at org.eclipse.wst.jsdt.core.dom.ASTParser.createAST(ASTParser.java:675)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.SourceIndexer.indexDocument(SourceIndexer.java:93)
+	at org.eclipse.wst.jsdt.internal.core.search.JavaSearchParticipant.indexDocument(JavaSearchParticipant.java:79)
+	at org.eclipse.wst.jsdt.web.core.javascript.search.JsSearchParticipant.indexDocument(JsSearchParticipant.java:82)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager.indexDocument(IndexManager.java:325)
+	at org.eclipse.wst.jsdt.internal.core.search.indexing.IndexManager$1.execute(IndexManager.java:728)
+	at org.eclipse.wst.jsdt.internal.core.search.processing.JobManager.run(JobManager.java:393)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

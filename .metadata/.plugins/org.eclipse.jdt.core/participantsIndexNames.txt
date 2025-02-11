@@ -1,0 +1,5 @@
+INDEX VERSION 1.134
+C:\Users\study\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1641555107.index
+\ExploradorDeRecetas\src\main\java
+C:\Users\study\Documents\workspace-spring-tool-suite-4-4.27.0.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1647667417.index
+\LibrosYAutores\src\main\java

@@ -1,0 +1,14 @@
+package com.nataliapena.controladores;
+
+public class ControladorLibros {
+	private static HashMap<String, String> listaLibros = new HashMap<String, String>();
+	
+	public ControladorLibros() {
+		listaLibros.put("Odisea", "Homero");	
+		listaLibros.put("Don Quijote de la Mancha", "Miguel de Cervantes");
+		listaLibros.put("El Código Da Vinci", "Dan Brown");		
+		listaLibros.put("Alicia en el país de las maravillas", "Lewis Carroll");
+		listaLibros.put("El Hobbit", "J.R.R. Tolkien");	
+		listaLibros.put("El alquimista", "Paulo Coelho");	
+	}
+}

@@ -1,0 +1,18 @@
+package com.clases;
+
+import java.util.ArrayList;
+
+public class TiendaElectronica {
+	private ArrayList<ProductoElectrodomestico> productos;
+
+	public TiendaElectronica() {
+		super();
+		productos= new ArrayList<>();
+	}
+	public void agregarProducto(ProductoElectrodomestico producto) {
+		productos.add(producto);
+	}
+	
+	
+	
+}

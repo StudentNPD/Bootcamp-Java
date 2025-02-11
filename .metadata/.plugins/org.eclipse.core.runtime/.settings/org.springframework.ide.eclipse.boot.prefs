@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=4
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=LibrosYAutores
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=3.4.2
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=Demo project for Spring Boot
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.ejemploo
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=17
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=LibrosYAutores
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.nataliapena
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=war
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

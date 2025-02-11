@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/CSS/styles.css">
+<title>Detalle Libro</title>
+</head>
+<body>
+	<div class="container">
+		<div class="recipe-card">
+			<div class="recipe-header">
+				<h1 class="recipe-title">${nombre}</h1>
+			</div>
+			<div class="recipe-content">
+				<div class="ingredients-section">
+					<h2 class="section-title">Libros</h2>
+					<ul class="ingredients-list">
+						<c:forEach items="${libro}" var="ingrediente">
+							<li class="ingredient-item">${ingrediente}</li>
+						</c:forEach>
+					</ul>
+				</div>
+
+				<div class="actions">
+					<a href="/libros" class="button">Volver a todos los libros</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>

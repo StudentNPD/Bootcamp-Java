@@ -1,0 +1,23 @@
+package com.clases;
+
+public class Televisor extends ProductoElectrodomestico{
+
+	private Integer tamanoPantalla;
+	private String resolucion;
+	public Televisor(String nombre, Double precio, Integer cantidadDisponible, Integer tamanoPantalla,
+			String resolucion) {
+		super(nombre, precio, cantidadDisponible);
+		this.tamanoPantalla = tamanoPantalla;
+		this.resolucion = resolucion;
+	}
+	@Override
+	public void mostrarInformacion() {
+		// TODO Auto-generated method stub
+		super.mostrarInformacion();
+		System.out.println("Tamanio pantalla: "+this.tamanoPantalla+"\nResolucion: "+
+		this.resolucion);
+	}
+	
+	
+	
+}

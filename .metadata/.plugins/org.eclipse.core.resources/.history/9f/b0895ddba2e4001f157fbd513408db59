@@ -1,0 +1,14 @@
+package com.nataliapena;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class LibrosYAutoresApplication {
+	private static HashMap<String, String> listaLibros = new HashMap<String, String>();
+	
+	public static void main(String[] args) {
+		SpringApplication.run(LibrosYAutoresApplication.class, args);
+	}
+
+}
