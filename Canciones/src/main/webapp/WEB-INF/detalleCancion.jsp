@@ -113,7 +113,7 @@
 
             <!-- Botones de acción -->
             <div class="text-center mt-4">
-                <a href="/canciones/editar/${cancion.titulo}" class="btn btn-warning me-2">
+                <a href="/canciones/editar/${cancion.id}" class="btn btn-warning me-2">
                     <i class="fas fa-edit"></i> Editar
                 </a>
                 <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal">
