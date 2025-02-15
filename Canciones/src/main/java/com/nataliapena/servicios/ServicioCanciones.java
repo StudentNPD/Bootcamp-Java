@@ -46,6 +46,9 @@ public class ServicioCanciones {
 		
 	}
 	
+	public void eliminaCancion(Long id) {
+		repositorio.deleteById(id);
+	}
 
 	
 	

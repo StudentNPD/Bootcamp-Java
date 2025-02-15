@@ -111,14 +111,14 @@
                 </div>
             </div>
 
-            <!-- Botones de acción -->
+            <!-- Botones editar eliminar -->
             <div class="text-center mt-4">
                 <a href="/canciones/editar/${cancion.id}" class="btn btn-warning me-2">
                     <i class="fas fa-edit"></i> Editar
                 </a>
-                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                <a href="/canciones/eliminar/${cancion.id}" class="btn btn-danger me-2">
                     <i class="fas fa-trash"></i> Eliminar
-                </button>
+                </a>
             </div>
         </div>
     </div>
