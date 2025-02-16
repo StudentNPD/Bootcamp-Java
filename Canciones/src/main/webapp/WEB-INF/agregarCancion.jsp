@@ -17,6 +17,8 @@
 <link
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
 	rel="stylesheet">
+	
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/styles.css">
 
 </head>
 <body class="bg-light">
