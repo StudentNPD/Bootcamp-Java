@@ -6,9 +6,12 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.PrePersist;
 import jakarta.persistence.PreUpdate;
 import jakarta.persistence.Table;
@@ -29,9 +32,9 @@ public class Cancion {
     @Size(min = 5, message = "El título debe tener al menos 5 caracteres")
     private String titulo;
 
-    @NotBlank(message = "El artista no puede estar vacío")
-    @Size(min = 3, message = "El nombre del artista debe tener al menos 3 caracteres")
-    private String artista;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "artista_id")
+    private Artista artista;
 
     @NotBlank(message = "El álbum no puede estar vacío")
     @Size(min = 3, message = "El nombre del álbum debe tener al menos 3 caracteres")
@@ -60,6 +63,8 @@ public class Cancion {
 	
 	// Getters y setters
 	
+	
+	// Metodos marcados con las anotaciones de los ciclos de vida
 	public Long getId() {
 		return id;
 	}
@@ -72,10 +77,10 @@ public class Cancion {
 	public void setTitulo(String titulo) {
 		this.titulo = titulo;
 	}
-	public String getArtista() {
+	public Artista getArtista() {
 		return artista;
 	}
-	public void setArtista(String artista) {
+	public void setArtista(Artista artista) {
 		this.artista = artista;
 	}
 	public String getAlbum() {
@@ -108,7 +113,6 @@ public class Cancion {
 	public void setFechaActualizacion(Date fechaActualizacion) {
 		this.fechaActualizacion = fechaActualizacion;
 	}
-	// Metodos marcados con las anotaciones de los ciclos de vida
 	@PrePersist
 	protected void onCreate() {
 		this.fechaCreacion = new Date();

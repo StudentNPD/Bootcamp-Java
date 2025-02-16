@@ -40,7 +40,7 @@
                                 <i class="fas fa-user me-2"></i>Artista
                             </div>
                             <div class="col-md-8">
-                                <h5 class="mb-0">${cancion.artista}</h5>
+                                <h5 class="mb-0">${cancion.artista.nombre} ${cancion.artista.apellido}</h5>
                             </div>
                         </div>
                     </div>

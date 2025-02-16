@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import com.nataliapena.modelos.Cancion;
+import com.nataliapena.servicios.ServicioArtistas;
 import com.nataliapena.servicios.ServicioCanciones;
 
 import jakarta.validation.Valid;
@@ -18,6 +19,8 @@ import jakarta.validation.Valid;
 public class ControladorCanciones {
 	@Autowired
 	ServicioCanciones servicio;
+	@Autowired
+	ServicioArtistas servicioArtistas;
 
 	@GetMapping("/canciones")
 	public String desplegarCanciones(Model model) {
@@ -34,6 +37,7 @@ public class ControladorCanciones {
 	@GetMapping("/canciones/formulario/agregar")
 	public String formularioAgregarCancion(Model model) {
 		model.addAttribute("cancion", new Cancion());
+		model.addAttribute("artistas", servicioArtistas.obtenerTodosLosArtistas());
 		return "agregarCancion.jsp";
 
 	}

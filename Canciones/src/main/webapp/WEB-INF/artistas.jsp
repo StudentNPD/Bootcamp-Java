@@ -6,11 +6,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Canciones</title>
+    <title>Lista de artistas</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
 </head>
 <body class="bg-light">
 
@@ -20,29 +21,29 @@
             <!-- Encabezado -->
             <div class="d-flex justify-content-between align-items-center mb-4">
                 <h1 class="h2">
-                    <i class="fas fa-music me-2"></i>Biblioteca Musical
+                    <i class="fas fa-music me-2"></i>Artistas
                 </h1>
-                <a href="/canciones/formulario/agregar" class="btn btn-primary">
-                    <i class="fas fa-plus me-2"></i>Nueva Canción
+                <a href="/artistas/formulario/agregar" class="btn btn-primary">
+                    <i class="fas fa-plus me-2"></i>Nuevo Artista
                 </a>
             </div>
 
-            <!-- Lista de canciones -->
+            <!-- Lista de artistas -->
             <div class="row row-cols-1 row-cols-md-2 g-4">
-                <c:forEach items="${canciones}" var="cancion">
+                <c:forEach items="${artistas}" var="artista">
                     <div class="col">
                         <div class="card song-card shadow-sm">
                             <div class="card-body">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div>
                                         <h5 class="card-title mb-1">
-                                            <i class="fas fa-music me-2 text-primary"></i>${cancion.titulo}
+                                            <i class="fas fa-music me-2 text-primary"></i>${artista.nombre} ${artista.apellido}
                                         </h5>
                                         <p class="card-text text-muted">
-                                            <i class="fas fa-user me-2"></i>${cancion.artista.nombre} ${cancion.artista.apellido}
+                                            <i class="fas fa-user me-2"></i>${artista.biografia}
                                         </p>
                                     </div>
-                                    <a href="/canciones/detalle/${cancion.id}" 
+                                    <a href="/artistas/detalle/${artista.id}" 
                                        class="btn btn-outline-primary btn-detail">
                                         <i class="fas fa-info-circle me-2"></i>Detalles
                                     </a>
@@ -53,19 +54,19 @@
                 </c:forEach>
             </div>
 
-            <!-- Si no hay canciones -->
-            <c:if test="${empty canciones}">
+            <!-- Si no hay artistas -->
+            <c:if test="${empty artistas}">
                 <div class="alert alert-info text-center mt-4">
                     <i class="fas fa-info-circle me-2"></i>
-                    No hay canciones disponibles
+                    No hay artistas disponibles
                 </div>
             </c:if>
 
-            <!-- Contador de canciones -->
+            <!-- Contador de artistas -->
             <div class="text-center mt-4">
                 <span class="badge bg-secondary">
                     <i class="fas fa-list me-2"></i>
-                    Total de canciones: ${canciones.size()}
+                    Total de artistas: ${artistas.size()}
                 </span>
             </div>
         </div>

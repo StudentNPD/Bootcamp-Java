@@ -17,48 +17,7 @@
 <link
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
 	rel="stylesheet">
-<style>
-.error {
-	color: #dc3545;
-	font-size: 0.85em;
-	margin-top: 0.25rem;
-}
 
-.form-control:focus {
-	border-color: #0d6efd;
-	box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
-}
-
-.card {
-	border: none;
-	border-radius: 15px;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.card-header {
-	background: linear-gradient(45deg, #0d6efd, #0dcaf0);
-	color: white;
-	border-radius: 15px 15px 0 0 !important;
-	padding: 1.5rem;
-}
-
-.form-label {
-	font-weight: 500;
-	margin-bottom: 0.5rem;
-}
-
-.input-group-text {
-	background-color: #f8f9fa;
-}
-
-.btn-submit {
-	padding: 0.75rem 2rem;
-}
-
-.form-control.is-invalid {
-	background-image: none;
-}
-</style>
 </head>
 <body class="bg-light">
 
@@ -77,7 +36,6 @@
 						</h2>
 					</div>
 					<div class="card-body p-4">
-						<!--modelAttribute!!  -->
 						<form:form modelAttribute="cancion" method="post"
 							action="/canciones/procesa/agregar">
 
@@ -95,14 +53,17 @@
 
 							<!-- Artista -->
 							<div class="mb-4">
-								<label for="artista" class="form-label"> <i
-									class="fas fa-user me-2"></i>Artista
-								</label>
-								<div class="input-group">
-									<form:input path="artista" class="form-control"
-										placeholder="Ingrese el nombre del artista" />
-								</div>
-								<form:errors path="artista" cssClass="error" />
+								<label for="artista" class="form-label required-field">Artista</label>
+								<form:select path="artista" class="form-select select2"
+									id="artista" required="true">
+									<form:option value="" label="-- Seleccione un artista --" />
+									<c:forEach items="${artistas}" var="artista">
+										<form:option value="${artista.id}">
+                							${artista.nombre} ${artista.apellido}
+            							</form:option>
+									</c:forEach>
+								</form:select>
+								<form:errors path="artista" cssClass="error-message" />
 							</div>
 
 							<!-- Álbum -->
@@ -143,7 +104,7 @@
 
 							<!-- Fecha de Creación -->
 							<div class="mb-4">
-								<label for="fechaCreacion" class="form-label"> <i
+								<label for="fechaDeCreacion" class="form-label"> <i
 									class="fas fa-calendar me-2"></i>Fecha de Creación
 								</label>
 								<div class="input-group">

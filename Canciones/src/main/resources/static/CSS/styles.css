@@ -1,47 +1,88 @@
 .song-card {
-	transition: transform 0.2s;
+    transition: transform 0.2s;
 }
 
 .song-card:hover {
-	transform: translateY(-5px);
+    transform: translateY(-5px);
 }
 
 .btn-detail {
-	transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .btn-detail:hover {
-	transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .detail-card {
-	border-radius: 15px;
-	overflow: hidden;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .detail-header {
-	background: linear-gradient(45deg, #1a237e, #283593);
-	padding: 2rem;
-	color: white;
+    background: linear-gradient(45deg, #1a237e, #283593);
+    padding: 2rem;
+    color: white;
 }
 
 .detail-item {
-	padding: 1rem;
-	border-bottom: 1px solid #eee;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
 }
 
 .detail-label {
-	font-weight: bold;
-	color: #666;
+    font-weight: bold;
+    color: #666;
 }
 
 .back-button {
-	position: absolute;
-	top: 1rem;
-	left: 1rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
 }
 
 .badge-custom {
-	font-size: 1em;
-	padding: 0.5em 1em;
+    font-size: 1em;
+    padding: 0.5em 1em;
+}
+
+.error {
+    color: #dc3545;
+    font-size: 0.85em;
+    margin-top: 0.25rem;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    background: linear-gradient(45deg, #0d6efd, #0dcaf0);
+    color: white;
+    border-radius: 15px 15px 0 0 !important;
+    padding: 1.5rem;
+}
+
+.form-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.input-group-text {
+    background-color: #f8f9fa;
+}
+
+.btn-submit {
+    padding: 0.75rem 2rem;
+}
+
+.form-control.is-invalid {
+    background-image: none;
 }
